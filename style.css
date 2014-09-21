@@ -304,13 +304,13 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	padding: 45px 0 20px 40px;
 	color: rgb(0, 0, 0);
 	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 35px;
+	font-size: 30px;
   }
 
   #search-area{
 	float: right;
 	margin-bottom: 25px;
-	padding: 50px 50px 0 40px;
+	padding: 50px 50px 0 20px;
 	color: rgb(0, 0, 0);
 	font-family: 'Montserrat Alternates', sans-serif;
   }
@@ -320,7 +320,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
   }
 
   .userChoice{
-  	font-size: 15px;
+  	font-size: 10px;
   }
 
 }
@@ -338,7 +338,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	padding: 45px 0 20px 40px;
 	color: rgb(0, 0, 0);
 	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 35px;
+	font-size: 25px;
   }
 
   #search-area{
@@ -350,7 +350,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
   }
 
   .input-group {
-	width: 200px;
+	width: 150px;
   }
 
   .userChoice{
