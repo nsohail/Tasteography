@@ -254,6 +254,6 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 @media (max-width: 1043px) {
   .header {
-    display: none;
+    min-width:1043px;
   }
 }
