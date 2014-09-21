@@ -254,6 +254,11 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 @media (max-width: 1043px) {
 
+  .header{
+  	padding:0px;
+  }
+
+
   .title{
   	float: left;
 	padding: 65px 0 20px 20px;
