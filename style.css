@@ -252,7 +252,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 
 
-@media (max-width: 1043px) {
+@media (max-width: 400px) {
 
   .header{
   	padding:0px;
@@ -270,7 +270,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
   #search-area{
   	float: left;
 	margin-bottom: 25px;
-	padding:60px 10px 0 0;
+	padding:60px 10px 0 15px;
 	color: rgb(0, 0, 0);
 	font-family: 'Montserrat Alternates', sans-serif;
   }
