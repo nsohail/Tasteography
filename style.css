@@ -252,7 +252,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 
 
-@media (max-width: 400px) {
+@media (min-width: 400px) {
 
 
   .title{
@@ -316,5 +316,73 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
   	font-size: 15px;
   }
 
+
+}
+
+
+@media (max-width: 848px) {
+
+  .header{
+  	padding:0px;
+  }
+
+
+  .title{
+	float: left;
+	padding: 45px 0 20px 40px;
+	color: rgb(0, 0, 0);
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 35px;
+  }
+
+  #search-area{
+	float: right;
+	margin-bottom: 25px;
+	padding: 50px 50px 0 40px;
+	color: rgb(0, 0, 0);
+	font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  .input-group {
+	width: 400px;
+  }
+
+  .userChoice{
+  	font-size: 15px;
+  }
+
+}
+
+
+@media (max-width: 636px) {
+
+  .header{
+  	padding:0px;
+  }
+
+
+  .title{
+	float: left;
+	padding: 45px 0 20px 40px;
+	color: rgb(0, 0, 0);
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 35px;
+  }
+
+  #search-area{
+	float: right;
+	margin-bottom: 25px;
+	padding: 50px 50px 0 40px;
+	color: rgb(0, 0, 0);
+	font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  .input-group {
+	width: 200px;
+  }
+
+  .userChoice{
+  	font-size: 10px;
+  }
 
 }
