@@ -246,4 +246,6 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	padding: 10px 0px 10px 10px;
 }
 
-
+.icongroup{
+	float:right;
+}
