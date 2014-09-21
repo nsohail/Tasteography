@@ -265,12 +265,10 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
   .search-area{
   	float: left;
 	margin-bottom: 25px;
-	/* padding-top: 50px; */
 	float: left;
-	padding: 60px 0px 20px 20px;
+	padding:60px 10px 0px 0px;
 	color: rgb(0, 0, 0);
 	font-family: 'Montserrat Alternates', sans-serif;
-	/* font-size: 12px; */
   }
 
   .input-group {
