@@ -83,7 +83,7 @@ body{
 #search-area{
 	float: right;
 	margin-bottom: 25px;
-	padding-top: 50px;
+	padding: 50px 30px 0 0px;
 }
 
 .food-thumbnail{
