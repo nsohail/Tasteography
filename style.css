@@ -460,3 +460,24 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 
 }
+
+
+@media (max-width: 320px) {
+
+	.frame{
+		width:320px;
+	}
+
+	.liBorder{
+		width:320px;
+	}
+
+	.results{
+		width:320px;
+	}
+
+	.results li{
+		width:280px;
+	}
+
+}
