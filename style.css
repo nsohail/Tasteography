@@ -46,7 +46,7 @@ body{
 	background-color: #F0F0F0;
 	border-bottom: #BCBCBC solid 2px;
 	/* border-radius: 0 0 15px 15px; */
-	padding: 0 100px;
+	padding: 0;
 	position: fixed;
 	margin-bottom: 40px;
 	/* width: 1020px; */
@@ -253,6 +253,38 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 
 @media (max-width: 400px) {
+
+
+  .title{
+  	float: left;
+	padding: 65px 0 20px 20px;
+	color: rgb(0, 0, 0);
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 15px;
+  }
+
+  #search-area{
+  	float: left;
+	margin-bottom: 25px;
+	padding: 50px 40px 0px 0px;
+	color: rgb(0, 0, 0);
+	font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  .input-group {
+	width: 200px;
+  }
+
+  .userChoice{
+  	font-size: 8px;
+  }
+
+
+}
+
+
+
+@media (max-width: 1042px) {
 
   .header{
   	padding:0px;
