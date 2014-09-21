@@ -249,3 +249,11 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 .icongroup{
 	float:right;
 }
+
+
+
+@media (max-width: 1043px) {
+  .header {
+    display: none;
+  }
+}
