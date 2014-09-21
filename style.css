@@ -252,35 +252,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 
 
-@media (max-width: 400px) {
 
-
-  .title{
-  	float: left;
-	padding: 65px 0 20px 20px;
-	color: rgb(0, 0, 0);
-	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 15px;
-  }
-
-  #search-area{
-  	float: left;
-	margin-bottom: 25px;
-	padding: 50px 40px 0px 0px;
-	color: rgb(0, 0, 0);
-	font-family: 'Montserrat Alternates', sans-serif;
-  }
-
-  .input-group {
-	width: 200px;
-  }
-
-  .userChoice{
-  	font-size: 8px;
-  }
-
-
-}
 
 
 
@@ -384,5 +356,37 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
   .userChoice{
   	font-size: 10px;
   }
+
+}
+
+
+
+@media (max-width: 400px) {
+
+
+  .title{
+  	float: left;
+	padding: 65px 0 20px 20px;
+	color: rgb(0, 0, 0);
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 15px;
+  }
+
+  #search-area{
+  	float: left;
+	margin-bottom: 25px;
+	padding: 50px 40px 0px 0px;
+	color: rgb(0, 0, 0);
+	font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  .input-group {
+	width: 200px;
+  }
+
+  .userChoice{
+  	font-size: 8px;
+  }
+
 
 }
