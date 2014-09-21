@@ -253,7 +253,33 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 
 @media (max-width: 1043px) {
-  .header {
-    min-width:1043px;
+
+  .title{
+  	float: left;
+	padding: 65px 0 20px 20px;
+	color: rgb(0, 0, 0);
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 15px;
   }
+
+  .search-area{
+  	float: left;
+	margin-bottom: 25px;
+	/* padding-top: 50px; */
+	float: left;
+	padding: 60px 0px 20px 20px;
+	color: rgb(0, 0, 0);
+	font-family: 'Montserrat Alternates', sans-serif;
+	/* font-size: 12px; */
+  }
+
+  .input-group {
+	width: 200px;
+  }
+
+  .userChoice{
+  	font-size: 8px;
+  }
+
+
 }
