@@ -265,8 +265,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
   .search-area{
   	float: left;
 	margin-bottom: 25px;
-	float: left;
-	padding:60px 10px 0px 0px;
+	padding:60px 10px 0 0;
 	color: rgb(0, 0, 0);
 	font-family: 'Montserrat Alternates', sans-serif;
   }
