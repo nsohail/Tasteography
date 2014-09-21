@@ -292,27 +292,28 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 
   .title{
-  	float: left;
-	padding: 65px 0 20px 20px;
+	float: left;
+	padding: 45px 0 20px 40px;
 	color: rgb(0, 0, 0);
 	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 15px;
+	font-size: 35px;
+}
   }
 
   #search-area{
-  	float: left;
+	float: right;
 	margin-bottom: 25px;
-	padding:60px 10px 0 15px;
+	padding: 50px 50px 0 40px;
 	color: rgb(0, 0, 0);
 	font-family: 'Montserrat Alternates', sans-serif;
   }
 
   .input-group {
-	width: 200px;
+	width: 400px;
   }
 
   .userChoice{
-  	font-size: 8px;
+  	font-size: 15px;
   }
 
 
