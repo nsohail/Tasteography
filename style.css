@@ -267,7 +267,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	font-size: 15px;
   }
 
-  .search-area{
+  #search-area{
   	float: left;
 	margin-bottom: 25px;
 	padding:60px 10px 0 0;
