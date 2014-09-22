@@ -183,7 +183,7 @@ function callback(results, status){
             }else{
             infowindow.setContent('<img class="windowPic" align="left" width="100px" src="'+this.photo+'">' + '<div class="windowName"> '+ this.name +' </div>' + '<br>' + '<div class="windowLocation"> '+this.location+' </div>');
             }
-            infowindow.setOptions({minWidth:250});
+            infowindow.setOptions({minWidth:400});
             infowindow.open(map, this);
 
         });
