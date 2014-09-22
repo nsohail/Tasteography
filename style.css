@@ -506,3 +506,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 		text-align: left;
 		font-size: 10px;
 	}
+
+	.windowPic{
+		float:left;
+	}
