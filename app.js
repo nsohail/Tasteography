@@ -178,10 +178,10 @@ function callback(results, status){
         //var contentString = '<IMG BORDER="0" ALIGN="Left" SRC="'+photoForPlace+'">'+'<div class="name">"'+this.name+'"</div>';
 
         google.maps.event.addListener(marker, 'click', function() {
-            if((!photoForPlace) || (photoForPlace === undefined)){
-            infowindow.setContent("<img align='left' height='100px' src='http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy'>"+ this.name +" '<br>"+this.location+"'");
+            if((!photo) || (photo === undefined)){
+            infowindow.setContent('<img align="left" height="100px" src="'+ photo +'">"'+ this.name +'" "<br>"'+this.location+'"');
         }else{
-            infowindow.setContent('<img align="left" height="100px" src="'+ photo +'">"'+ this.name +'" "<br>"'+this.location+'""');
+            infowindow.setContent('<img align="left" height="100px" src="'+ photo +'">"'+ this.name +'" "<br>"'+this.location+'"');
         }
             infowindow.open(map, this);
         });
