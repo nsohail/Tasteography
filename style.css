@@ -473,9 +473,9 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	font-size: 10px;
   }
 
-    .input-group {
+    .input-group{
 	width: 150px;
-  }
+    }
 
 	.frame{
 		width:320px;
@@ -497,6 +497,6 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 
 
-.windowName{
-	font-weight: bold;
-}
+	.windowName{
+		font-weight: bold;
+	}
