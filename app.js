@@ -167,6 +167,7 @@ function callback(results, status){
             position: results[i].geometry.location,
             map: map,
             name: results[i].name,
+            photo: miniPhoto
             //icon: eachPhotoinArray
             //icon: 'http://i.stack.imgur.com/KOh5X.png'
             //icon:miniPhoto
