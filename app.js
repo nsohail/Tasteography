@@ -178,12 +178,13 @@ function callback(results, status){
         
 
         google.maps.event.addListener(marker, 'click', function() {
+            infowindow.setOptions({maxWidth:400});
             if((!this.photo) || (this.photo === undefined)){
             infowindow.setContent('<img class="windowPic" align="left" width="100px" src="http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy">' + '<div class="windowName"> '+ this.name +' </div>' + '<br>'+ '<div class="windowLocation"> '+this.location+' </div>');
             }else{
             infowindow.setContent('<img class="windowPic" align="left" width="100px" src="'+this.photo+'">' + '<div class="windowName"> '+ this.name +' </div>' + '<br>' + '<div class="windowLocation"> '+this.location+' </div>');
             }
-            infowindow.setOptions({maxWidth:400});
+
             infowindow.open(map, this);
 
         });
