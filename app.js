@@ -177,7 +177,7 @@ function callback(results, status){
        
 
         google.maps.event.addListener(marker, 'click', function() {
-            infowindow.setContent(this.name);
+            infowindow.setContent(this.miniPhoto);
             infowindow.open(map, this);
         });
     
