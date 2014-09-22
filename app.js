@@ -178,7 +178,7 @@ function callback(results, status){
         //var contentString = '<IMG BORDER="0" ALIGN="Left" SRC="'+photoForPlace+'">'+'<div class="name">"'+this.name+'"</div>';
 
         google.maps.event.addListener(marker, 'click', function() {
-            infowindow.setContent(this.name + '<img src="'+miniPhoto+'">');
+            infowindow.setContent(this.name + '<img src="'+this.icon+'">');
             infowindow.open(map, this);
         });
     
