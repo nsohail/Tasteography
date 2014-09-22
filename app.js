@@ -181,7 +181,7 @@ function callback(results, status){
             if((!photoForPlace) || (photoForPlace === undefined)){
             infowindow.setContent("<img align='left' height='100px' src='http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy'>"+ this.name +" '<br>"+this.location+"'");
         }else{
-            infowindow.setContent("<img align='left' height='100px' src="+ photo +">"+ this.name +" '<br>"+this.location+"'");
+            infowindow.setContent('<img align="left" height="100px" src="'+ photo +'">"'+ this.name +'" "<br>"'+this.location+'""');
         }
             infowindow.open(map, this);
         });
