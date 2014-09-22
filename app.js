@@ -179,7 +179,7 @@ function callback(results, status){
 
         google.maps.event.addListener(marker, 'click', function() {
             
-            infowindow.setContent('<img align="left" height="100px" src="'+ photo +'">"'+ this.name +'" "<br>"'+this.location+'"');
+            infowindow.setContent('<img align="left" height="100px" src='+ photo +'> '+ this.name +' "<br>"'+this.location+'');
         
             infowindow.open(map, this);
         });
