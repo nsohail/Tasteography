@@ -166,16 +166,16 @@ function callback(results, status){
         var marker = new google.maps.Marker({ //marker for the search results
             position: results[i].geometry.location,
             map: map,
-            name: results[i].name,
+            name: results[i].name
             //icon: eachPhotoinArray
             //icon: 'http://i.stack.imgur.com/KOh5X.png'
-            icon:miniPhoto
+            //icon:miniPhoto
             //icon: miniPhoto{background:url('http://i.stack.imgur.com/KOh5X.png') no-repeat 4px 4px}
         });
 
         markersOnMap.push(marker);
        
-        var contentString = '<IMG BORDER="0" ALIGN="Left" SRC="'+miniPhoto+'">'+'<div class="name">"'+results[i].name+'"</div>';
+        var contentString = '<IMG BORDER="0" ALIGN="Left" SRC="'+miniPhoto+'">'+'<div class="name">"'+marker.name+'"</div>';
 
         google.maps.event.addListener(marker, 'click', function() {
             infowindow.setContent(contentString);
