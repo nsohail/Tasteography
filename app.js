@@ -178,9 +178,11 @@ function callback(results, status){
         //var contentString = '<IMG BORDER="0" ALIGN="Left" SRC="'+photoForPlace+'">'+'<div class="name">"'+this.name+'"</div>';
 
         google.maps.event.addListener(marker, 'click', function() {
-            
-            infowindow.setContent('<img align="left" height="100px" src='+ photo +'> '+ this.name +' "<br>"'+this.location+'');
-        
+            if((!photo) || (photo === undefined)){
+            infowindow.setContent('<img align="left" width="100px" src="'+this.photo+'">' + this.name + '<br>"'+this.location+'"');
+        }else{
+            infowindow.setContent('<img align="left" width="100px" src="'+this.photo+'">' + this.name + '<br>"'+this.location+'"');
+        }
             infowindow.open(map, this);
         });
     
