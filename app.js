@@ -167,7 +167,8 @@ function callback(results, status){
             position: results[i].geometry.location,
             map: map,
             name: results[i].name,
-            location: results[i].vicinity
+            location: results[i].vicinity,
+            photo: photoForPlace
             //icon:miniPhoto
             //icon: miniPhoto{background:url('http://i.stack.imgur.com/KOh5X.png') no-repeat 4px 4px}
         });
@@ -177,7 +178,7 @@ function callback(results, status){
         //var contentString = '<IMG BORDER="0" ALIGN="Left" SRC="'+photoForPlace+'">'+'<div class="name">"'+this.name+'"</div>';
 
         google.maps.event.addListener(marker, 'click', function() {
-            infowindow.setContent(this.name + '<img align="left" src="'+photoForPlace+'">' + this.location);
+            infowindow.setContent(this.name + '<img align="left" src="'+this.photo+'">' + this.location);
             infowindow.open(map, this);
         });
     
