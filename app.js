@@ -175,7 +175,7 @@ function callback(results, status){
 
         markersOnMap.push(marker);
        
-        var contentString = '<div id="content">'+miniPhoto+'</div>';
+        var contentString = '<IMG BORDER="0" ALIGN="Left" SRC="'+miniPhoto+'">';
 
         google.maps.event.addListener(marker, 'click', function() {
             infowindow.setContent(contentString);
