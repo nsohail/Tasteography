@@ -179,7 +179,7 @@ function callback(results, status){
 
         google.maps.event.addListener(marker, 'click', function() {
             if((!this.photo) || (this.photo === undefined)){
-            infowindow.setContent('<img align="left" width="100px" src="'+this.photo+'">' + this.name + '<br>'+this.location+'');
+            infowindow.setContent('<img align="left" width="100px" src="http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy">' + this.name + '<br>'+this.location+'');
             }else{
             infowindow.setContent('<img align="left" width="100px" src="'+this.photo+'">' + this.name + '<br>'+this.location+'');
             }
