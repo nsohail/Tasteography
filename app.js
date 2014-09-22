@@ -166,10 +166,8 @@ function callback(results, status){
         var marker = new google.maps.Marker({ //marker for the search results
             position: results[i].geometry.location,
             map: map,
-            name: results[i].name,
-            //icon: eachPhotoinArray
-            //icon: 'http://i.stack.imgur.com/KOh5X.png'
-            icon:miniPhoto
+            name: results[i].name
+            //icon:miniPhoto
             //icon: miniPhoto{background:url('http://i.stack.imgur.com/KOh5X.png') no-repeat 4px 4px}
         });
 
