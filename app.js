@@ -149,21 +149,17 @@ function callback(results, status){
         }
 
         
-        $('.icongroup').mouseenter(function(){
+        $('.icongroup').hover(function(){
             var iconValue = $(this).parent('li').attr('value');
             //console.log(results[iconValue].vicinity);
             var addressText = results[iconValue].vicinity;
 
             $(this).find('.hover').text(addressText).fadeIn(300);
             
+        } , function(){
+            $(this).hide();
+
         });
-
-        $('.icongroup').mouseleave(function(){
-            $(this).find('.hover').hide();
-            
-        });
-
-
 
         
 
