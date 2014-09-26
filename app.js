@@ -157,6 +157,14 @@ function callback(results, status){
             $(this).find('.hover').text(addressText).fadeIn(300);
             
         });
+
+        $('.icongroup').mouseleave(function(){
+            $(this).find('.hover').fadeOut(200);
+            
+        });
+
+
+
         
 
 
