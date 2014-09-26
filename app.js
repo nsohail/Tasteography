@@ -97,7 +97,7 @@ function callback(results, status){
        
         var photosArray = results[i].photos; //access the photos of each place
         var placeName = results[i].name;
-        //var placeLocation = results[i].vicinity;
+        var placeLocation = results[i].vicinity;
 
 
         var photoForPlace = false;
@@ -148,6 +148,9 @@ function callback(results, status){
             $('.results').append("<li value ='"+i+"' data-id = '"+results[i].place_id+"'><div class='food-thumbnail'><img style='height:190px;min-width: 230px;' value = '"+i+"' src='"+photoForPlace+"'></div><div class='resultName'>"+placeName+"</div><div class='icongroup'><div class='icon'><img src='images/location.png' style='width:10px; margin-right: 10px;'></div><div class='location'>City Not Available</div></div></li>");
         }
     
+        $('.icongroup').hover(function(){
+            alert('working');
+        });
 
 
 
@@ -174,8 +177,7 @@ function callback(results, status){
         });
 
         markersOnMap.push(marker);
-       
-        
+
 
         google.maps.event.addListener(marker, 'click', function() {
             infowindow.setOptions({maxWidth:400});
