@@ -152,8 +152,18 @@ function callback(results, status){
         // $('.icongroup').hover(function(){
         //     console.log(placeLocation);
         // });
+        
+        $('.icongroup').hover(function(){
+            var iconValue = $(this).parent('li').attr('value');
+            console.log(results[iconValue].vicinity);
+        })
+        
 
 
+$('.results img').click(function(){
+        var pictureValue = $(this).attr('value');
+        new google.maps.event.trigger(markersOnMap[pictureValue], 'click');
+    });
 
 
         var placeReference = results[i].place_id;
