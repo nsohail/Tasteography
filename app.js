@@ -159,7 +159,7 @@ function callback(results, status){
         });
 
         $('.icongroup').mouseleave(function(){
-            $(this).find('.hover').fadeOut(200);
+            $(this).find('.hover').hide();
             
         });
 
