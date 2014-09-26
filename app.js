@@ -149,7 +149,7 @@ function callback(results, status){
         }
 
         
-        $('.icongroup').hover(function(){
+        $('.icongroup').mouseenter(function(){
             var iconValue = $(this).parent('li').attr('value');
             //console.log(results[iconValue].vicinity);
             var addressText = results[iconValue].vicinity;
