@@ -174,7 +174,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	margin-left: 20px;
 	margin-bottom: 26px;
 	border-radius: 4px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	box-shadow: rgb(236, 236, 236) 0px 4px 2px;
 }
 
@@ -465,16 +465,16 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 @media (max-width: 320px) {
 
 
-  .title{
-  	float: left;
-	padding: 65px 20px 20px 20px;
-	color: rgb(0, 0, 0);
-	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 10px;
-  }
+	.title{
+		float: left;
+		padding: 65px 20px 20px 20px;
+		color: rgb(0, 0, 0);
+		font-family: 'Montserrat Alternates', sans-serif;
+		font-size: 10px;
+	}
 
     .input-group{
-	width: 150px;
+		width: 150px;
     }
 
 	.frame{
@@ -510,3 +510,14 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	.windowPic{
 		float:left;
 	}
+
+
+.hover{
+	width: 200px;
+	height: 50px;
+	color: white;
+	background: rgba(255, 192, 247, 1);
+	position: absolute;
+	bottom: 30px;
+	right: -30px;
+}
