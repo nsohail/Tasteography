@@ -154,7 +154,7 @@ function callback(results, status){
             //console.log(results[iconValue].vicinity);
             var addressText = results[iconValue].vicinity;
 
-            $('.hover').text(addressText).fadeIn(300);
+            $(this).$('.hover').text(addressText).fadeIn(300);
             
         });
         
