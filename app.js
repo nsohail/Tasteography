@@ -157,7 +157,7 @@ function callback(results, status){
             $(this).find('.hover').text(addressText).fadeIn(300);
             
         } , function(){
-            $(this).hide();
+            $(this).find('.hover').hide();
 
         });
 
