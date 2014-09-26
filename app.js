@@ -149,7 +149,7 @@ function callback(results, status){
         }
     
         $('.icongroup').hover(function(){
-            alert('working');
+            console.log(placeLocation);
         });
 
 
