@@ -514,12 +514,14 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 
 .hover{
-	width: 200px;
-	height: 50px;
+	/* width: 200px; */
+	/* height: 40px; */
 	color: white;
-	background: rgba(255, 192, 247, 1);
+	font-weight: 400;
+	background: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	bottom: 30px;
 	right: -30px;
+	padding: 15px;
 	display: none;
 }
