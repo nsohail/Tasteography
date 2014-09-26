@@ -151,7 +151,11 @@ function callback(results, status){
         
         $('.icongroup').hover(function(){
             var iconValue = $(this).parent('li').attr('value');
-            console.log(results[iconValue].vicinity);
+            //console.log(results[iconValue].vicinity);
+            var addressText = results[iconValue].vicinity;
+
+            $('.hover').text(addressText).fadeIn(300);
+            
         });
         
 
