@@ -176,6 +176,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	border-radius: 4px;
 	/*overflow: hidden;*/
 	box-shadow: rgb(236, 236, 236) 0px 4px 2px;
+	position: relative;
 }
 
 .results{
@@ -520,4 +521,5 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	position: absolute;
 	bottom: 30px;
 	right: -30px;
+	display: none;
 }
