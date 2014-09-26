@@ -148,9 +148,10 @@ function callback(results, status){
             $('.results').append("<li value ='"+i+"' data-id = '"+results[i].place_id+"'><div class='food-thumbnail'><img style='height:190px;min-width: 230px;' value = '"+i+"' src='"+photoForPlace+"'></div><div class='resultName'>"+placeName+"</div><div class='icongroup'><div class='icon'><img src='images/location.png' style='width:10px; margin-right: 10px;'></div><div class='location'>City Not Available</div></div></li>");
         }
     
-        $('.icongroup').hover(function(){
-            console.log(placeLocation);
-        });
+        console.log(placeLocation);
+        // $('.icongroup').hover(function(){
+        //     console.log(placeLocation);
+        // });
 
 
 
