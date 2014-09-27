@@ -198,9 +198,9 @@ $('.results img').click(function(){
             infowindow.setOptions({maxWidth:800});
 
             if((!this.photo) || (this.photo === undefined)){
-            infowindow.setContent('<img class="windowPic" float="left" align="left" height="200px" src="http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy">' + '<div class="windowName"> '+ this.name +' </div>' + '<br>'+ '<div class="windowLocation"> '+this.location+' </div>');
+            infowindow.setContent('<img class="windowPic" float="left" align="left" height="150px" src="http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy">' + '<div class="windowName"> '+ this.name +' </div>' + '<br>'+ '<div class="windowLocation"> '+this.location+' </div>');
             }else{
-            infowindow.setContent('<img class="windowPic" float="left" align="left" height="200px" src="'+this.photo+'">' + '<div class="windowName"> '+ this.name +' </div>' + '<br>' + '<div class="windowLocation"> '+this.location+' </div>');
+            infowindow.setContent('<img class="windowPic" float="left" align="left" height="150px" src="'+this.photo+'">' + '<div class="windowName"> '+ this.name +' </div>' + '<br>' + '<div class="windowLocation"> '+this.location+' </div>');
             }
 
             infowindow.open(map, this);
