@@ -13,6 +13,7 @@ $(document).ready(function () {
         event.preventDefault();
 
         if ($.trim($(".userChoice").val()) === ""){
+            console.log('Enter your craving!');
             alert('Enter your craving!');
             return false;
         }
