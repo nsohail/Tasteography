@@ -151,15 +151,14 @@ function callback(results, status){
 
         
         $('.icongroup > .location').hover(function(){
-            console.log('nl');
-        //     var iconValue = $(this).parents('li').attr('value');
-        //     //console.log(results[iconValue].vicinity);
-        //     var addressText = results[iconValue].vicinity;
+            var iconValue = $(this).parents('li').attr('value');
+            //console.log(results[iconValue].vicinity);
+            var addressText = results[iconValue].vicinity;
 
-        //     $(this).closest('.hover').text(addressText).fadeIn(300);
+            $(this).closest('.hover').text(addressText).fadeIn(300);
             
-        // } , function(){
-        //     $(this).closest('.hover').hide();
+        } , function(){
+            $(this).closest('.hover').hide();
 
         });
 
