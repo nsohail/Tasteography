@@ -13,7 +13,6 @@ $(document).ready(function () {
         event.preventDefault();
 
         if ($.trim($(".userChoice").val()) === ""){
-            //console.log('Enter your craving!');
             alert('Enter your craving!');
             return false;
         }
@@ -150,15 +149,15 @@ function callback(results, status){
         }
 
         
-        $('.icongroup > .location').hover(function(){
-            var iconValue = $(this).parents('li').attr('value');
+        $('.icongroup').hover(function(){
+            var iconValue = $(this).parent('li').attr('value');
             //console.log(results[iconValue].vicinity);
             var addressText = results[iconValue].vicinity;
 
-            $(this).closest('.hover').text(addressText).fadeIn(300);
+            $(this).find('.hover').text(addressText).fadeIn(300);
             
         } , function(){
-            $(this).closest('.hover').hide();
+            $(this).find('.hover').hide();
 
         });
 
@@ -198,9 +197,9 @@ $('.results img').click(function(){
         google.maps.event.addListener(marker, 'click', function() {
             infowindow.setOptions({maxWidth:400});
             if((!this.photo) || (this.photo === undefined)){
-            infowindow.setContent('<img class="windowPic" align="left" width="100px" src="http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy">' + '<div class="windowName"> '+ this.name +' </div>' + '<div class="windowLocation"> '+this.location+' </div>');
+            infowindow.setContent('<img class="windowPic" align="left" width="100px" src="http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy">' + '<div class="windowName"> '+ this.name +' </div>' + '<br>'+ '<div class="windowLocation"> '+this.location+' </div>');
             }else{
-            infowindow.setContent('<img class="windowPic" align="left" width="100px" src="'+this.photo+'">' + '<div class="windowName"> '+ this.name +' </div>' + '<div class="windowLocation"> '+this.location+' </div>');
+            infowindow.setContent('<img class="windowPic" align="left" width="100px" src="'+this.photo+'">' + '<div class="windowName"> '+ this.name +' </div>' + '<br>' + '<div class="windowLocation"> '+this.location+' </div>');
             }
 
             infowindow.open(map, this);
