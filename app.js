@@ -154,10 +154,10 @@ function callback(results, status){
             //console.log(results[iconValue].vicinity);
             var addressText = results[iconValue].vicinity;
 
-            $(this).find('.hover').text(addressText).fadeIn(300);
+            $(this).sibling('.hover').text(addressText).fadeIn(300);
             
         } , function(){
-            $(this).find('.hover').hide();
+            $(this).sibling('.hover').hide();
 
         });
 
