@@ -524,4 +524,10 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	right: -30px;
 	padding: 15px;
 	display: none;
+	font-size: 12px;
+}
+
+
+.icongroup:hover {
+	cursor: default;
 }
