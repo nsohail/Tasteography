@@ -150,7 +150,7 @@ function callback(results, status){
         }
 
         
-        $('.location').hover(function(){
+        $('.icongroup .location').hover(function(){
             var iconValue = $(this).parents('li').attr('value');
             //console.log(results[iconValue].vicinity);
             var addressText = results[iconValue].vicinity;
