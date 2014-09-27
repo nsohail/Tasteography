@@ -150,7 +150,7 @@ function callback(results, status){
         }
 
         
-        $('.icongroup .location').hover(function(){
+        $('.icongroup > .location').hover(function(){
             alert('nl');
         //     var iconValue = $(this).parents('li').attr('value');
         //     //console.log(results[iconValue].vicinity);
