@@ -151,7 +151,7 @@ function callback(results, status){
 
         
         $('.icongroup > .location').hover(function(){
-            alert('nl');
+            console.log('nl');
         //     var iconValue = $(this).parents('li').attr('value');
         //     //console.log(results[iconValue].vicinity);
         //     var addressText = results[iconValue].vicinity;
