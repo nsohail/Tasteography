@@ -565,3 +565,18 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	float:left;
 	width: 200px;
 }
+
+
+
+#find-sign{
+	float: right;
+	margin-bottom: 25px;
+	padding: 50px 30px 0 0px;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.small-text{
+	font-size: 12px;
+	font-weight: 100;
+}
