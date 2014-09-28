@@ -164,10 +164,10 @@ function callback(results, status){
         
 
 
-$('.results img').click(function(){
-        var pictureValue = $(this).attr('value');
-        new google.maps.event.trigger(markersOnMap[pictureValue], 'click');
-    });
+        $('.results img').click(function(){
+            var pictureValue = $(this).attr('value');
+            new google.maps.event.trigger(markersOnMap[pictureValue], 'click');
+        });
 
 
         var placeReference = results[i].place_id;
@@ -229,7 +229,8 @@ function performSearch(){
         radius: '50000',
         types: ['cafe','restaurant','bakery','food'],
         //rankBy: google.maps.places.RankBy.DISTANCE,
-        keyword: searchFieldValue
+        keyword: searchFieldValue,
+        rankby : google.maps.places.RankBy.DISTANCE
     };
 
     service.nearbySearch(request, callback);
