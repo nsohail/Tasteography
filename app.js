@@ -264,8 +264,7 @@ function initialize(){
     var markerCurrent = new google.maps.Marker({
     position: currentLocation,
     map: map,
-    icon: 'https://www.google.com/search?q=you+are+here+markers&rlz=1C5CHFA_enUS503US503&espv=2&biw=996&bih=645&source=lnms&tbm=isch&sa=X&ei=QIknVM_FG8aBsQT44oDYAg&ved=0CAcQ_AUoAg#tbm=isch&q=map+location+markers&facrc=_&imgdii=_&imgrc=A0dgV_mkYi75mM%253A%3BdEYMVBMr-JCSqM%3Bhttp%253A%252F%252Fsimpleicon.com%252Fwp-content%252Fuploads%252Fmap-marker-17.svg%3Bhttp%253A%252F%252Fsimpleicon.com%252Fsets%252Fmap-marker%252F%3B512%3B512'
-    //icon: new google.maps.MarkerImage('https://maps.gstatic.com/mapfiles/mobile/mobileimgs2.png',new google.maps.Size(22,22),new google.maps.Point(0,18),new google.maps.Point(11,11)),
+    icon: new google.maps.MarkerImage('https://maps.gstatic.com/mapfiles/mobile/mobileimgs2.png',new google.maps.Size(22,22),new google.maps.Point(0,18),new google.maps.Point(11,11))
     //icon:'http://icons.iconarchive.com/icons/pixelkit/gentle-edges/128/Location-Map-icon.png'
     });
 
