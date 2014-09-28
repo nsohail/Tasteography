@@ -544,4 +544,5 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 .windowContent{
 	float:left;
+	width: 200px;
 }
