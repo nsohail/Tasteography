@@ -500,11 +500,9 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 	.windowName{
 		font-weight: bold;
-		float:left;
 	}
 
 	.windowLocation{
-		float:left;
 		font-size: 10px;
 	}
 
@@ -536,4 +534,9 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 .content{
 	background:blue;
+}
+
+
+.windowContent{
+	float:left;
 }
