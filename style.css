@@ -500,16 +500,17 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 
 	.windowName{
 		font-weight: bold;
-		text-align: left;
+		float:left;
 	}
 
 	.windowLocation{
-		text-align: left;
+		float:left;
 		font-size: 10px;
 	}
 
 	.windowPic{
 		float:left;
+		margin-right: 10px;
 	}
 
 
