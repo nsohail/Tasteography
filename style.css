@@ -531,3 +531,8 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 .icongroup:hover {
 	cursor: default;
 }
+
+
+.content{
+	background:blue;
+}
