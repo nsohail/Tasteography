@@ -195,12 +195,12 @@ $('.results img').click(function(){
 
 
         google.maps.event.addListener(marker, 'click', function() {
-            infowindow.setOptions({minWidth:400});
+            //infowindow.setOptions({minWidth:400});
 
             if((!this.photo) || (this.photo === undefined)){
-            infowindow.setContent('<div class="content"> <img class="windowPic" float="left" align="left" height="150px" src="http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy"> <div class="windowName"> '+ this.name +' </div> <div class="windowLocation"> '+this.location+' </div> </div>');
+            infowindow.setContent('<div id="infodiv" style="width: 500px"><img class="windowPic" float="left" align="left" height="150px" src="http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy"> <div class="windowName"> '+ this.name +' </div> <div class="windowLocation"> '+this.location+' </div></div>');
             }else{
-            infowindow.setContent('<div class="content"> <img class="windowPic" float="left" align="left" height="150px" src="'+this.photo+'"> <div class="windowName"> '+ this.name +' </div> <div class="windowLocation"> '+this.location+' </div>');
+            infowindow.setContent('<div id="infodiv" style="width: 500px"><img class="windowPic" float="left" align="left" height="150px" src="'+this.photo+'"> <div class="windowName"> '+ this.name +' </div> <div class="windowLocation"> '+this.location+' </div></div>');
             }
 
             infowindow.open(map, this);
