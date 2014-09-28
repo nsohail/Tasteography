@@ -208,8 +208,9 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	/* width: 200px; */
 	text-align: left;
 	padding: 10px;
-	color: rgb(210, 210, 210);
-	font-weight: 300;
+	color: #FEE4A8;
+	font-weight: 200;
+	letter-spacing: .70px;
 }
 
 
@@ -286,7 +287,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	float: left;
 	padding: 45px 0 20px 40px;
 	color: rgb(0, 0, 0);
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'baron', sans-serif;
 	font-size: 35px;
   }
 
@@ -321,7 +322,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	float: left;
 	padding: 45px 0 20px 40px;
 	color: rgb(0, 0, 0);
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'baron', sans-serif;
 	font-size: 30px;
   }
 
@@ -355,7 +356,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	float: left;
 	padding: 45px 0 20px 40px;
 	color: rgb(0, 0, 0);
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'baron', sans-serif;
 	font-size: 25px;
   }
 
@@ -390,7 +391,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	float: left;
 	padding: 60px 0 20px 40px;
 	color: rgb(0, 0, 0);
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'baron', sans-serif;
 	font-size: 18px;
   }
 
@@ -426,7 +427,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 	float: left;
 	padding: 60px 0 20px 20px;
 	color: rgb(0, 0, 0);
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'baron', sans-serif;
 	font-size: 15px;
   }
 
@@ -457,7 +458,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
   	float: left;
 	padding: 65px 20px 20px 20px;
 	color: rgb(0, 0, 0);
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'baron', sans-serif;
 	font-size: 15px;
   }
 
