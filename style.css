@@ -41,9 +41,19 @@ body{
 .title{
 	float:left;
 	padding:40px;
-	color:rgb(0, 0, 0);
 	font-family: 'baron', sans-serif;
 	font-size: 40px;
+	color: #428bca;
+}
+
+.title a{
+	color: #428bca;
+	text-decoration: none;
+}
+
+.title a:hover{
+	color: #428bca;
+	text-decoration: none;
 }
 
 
