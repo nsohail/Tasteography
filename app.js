@@ -198,7 +198,7 @@ function callback(results, status){
             //infowindow.setOptions({minWidth:400});
 
             if((!this.photo) || (this.photo === undefined)){
-            infowindow.setContent('<div id="infodiv" style="width: 300px"><img class="windowPic" margin-right="10px" float="left" align="left" height="90px" width="90px" src="http://www.uwplatt.edu/files/styles/high_resolution/public/image_fields/directory_image/image-not-available_1.jpg?itok=GIB8RUHy"> <div class="windowContent"><div class="windowName"> '+ this.name +' </div> <div class="windowLocation"> '+this.location+' </div></div></div>');
+            infowindow.setContent('<div id="infodiv" style="width: 300px"><img class="windowPic" margin-right="10px" float="left" align="left" height="90px" width="90px" src="images/no-image.jpg"> <div class="windowContent"><div class="windowName"> '+ this.name +' </div> <div class="windowLocation"> '+this.location+' </div></div></div>');
             }else{
             infowindow.setContent('<div id="infodiv" style="width: 300px"><img class="windowPic" margin-right="10px" float="left" align="left" height="90px" width="90px" src="'+this.photo+'"> <div class="windowContent"><div class="windowName"> '+ this.name +' </div> <div class="windowLocation"> '+this.location+' </div></div></div>');
             }
