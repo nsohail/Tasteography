@@ -502,6 +502,7 @@ span.glyphicon.glyphicon-circle-arrow-left:hover:hover,span.glyphicon.glyphicon-
 		font-weight: bold;
 		text-align: left;
 		font-size: 14px;
+		padding-bottom: 5px;
 	}
 
 	.windowLocation{
